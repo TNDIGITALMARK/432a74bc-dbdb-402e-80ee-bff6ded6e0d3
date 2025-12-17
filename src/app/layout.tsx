@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "Machtech Enterprises | Performance-Based Advertising Agency",
+  description: "Commission-based advertising for dropshippers. We manage Meta, Google, and TikTok ads. We succeed when you succeed.",
 };
 
 export default function RootLayout({
@@ -40,8 +40,9 @@ export default function RootLayout({
           <ZyloProvider>
             <ThemeProvider
               attribute="class"
-              defaultTheme="light"
-              enableSystem
+              defaultTheme="dark"
+              forcedTheme="dark"
+              enableSystem={false}
               disableTransitionOnChange
             >
               <TooltipProvider>
